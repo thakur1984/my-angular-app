@@ -13,7 +13,9 @@ angular
 		$stateProvider
 			.state('list', {
 				url: '/list',
-				templateUrl: 'list.html'
+				templateUrl: 'list.html',
+				controller: 'stockController',
+				controllerAs:'share'
 			});
 
 
